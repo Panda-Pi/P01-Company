@@ -1,0 +1,275 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+	width: 100%;
+	background-color: black;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: block;
+	text-align: center;
+	border-bottom: none;
+	z-index: 4;
+}
+
+.logo {
+	position: fixed;
+	padding-left: 3em;
+	padding-top:6px;
+	width: 100px;
+	float: left;
+}
+
+.bag {
+	position: fixed;
+	padding-left: 73em;
+	padding-top: 6px;
+	width: 100px;
+	float: right;
+}
+
+.search {
+	position: fixed;
+	padding-left: 70em;
+	padding-top: 6px;
+	width: 100px;
+	float: right;
+}
+
+.user {
+	position: fixed;
+	padding-left: 76em;
+	padding-top: 6px;
+	width: 100px;
+	float: right;
+}
+
+ul{
+	list-style-type: none;
+	position: relative;
+	text-align: center;
+	padding-right: 60px;
+	letter-spacing: 3px;
+}
+
+ul li {
+	display: inline-block;
+	padding: 0 20px 0 20px;
+	position: relative;
+}
+
+li a {
+	text-decoration: none;
+	color: #ccb578;
+}
+
+.image01 {
+	padding-top: 6em;
+	padding-left: 3em;
+	height: auto; 
+	max-width: 100%;
+	float: left;
+}
+
+.text {
+	padding-left: 13em;
+	text-align: center;
+	vertical-align: top;
+	display: inline-block;
+}
+
+.content-head {
+	font-weight: 300;
+	padding-top: 11em;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	float: right;
+}
+
+.p1 {
+	padding-bottom: 1em;
+}
+
+.btn {
+	text-decoration: none;
+	background-color: black;
+	border:1px solid black;
+	border-radius: 0;
+	color: white;
+	margin-top: -8px;
+	margin-left: -6px;
+	padding: 7px 12px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+a.btn:hover, a.btn:focus {
+	text-decoration: none;
+	background-color: white;
+	border:1px solid black;
+	border-radius: 0;
+	color: black;
+	margin-top: -8px;
+	margin-left: -6px;
+	padding: 7px 12px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+h2, h3 {
+	font-weight: 500;
+}
+
+.elements {
+	max-width: 100%;
+	height: auto;
+	margin-right: 5em;
+	padding-right:18em;
+}
+
+.ribbon2 {
+	position: relative;
+	top: 15.3em;
+	height: 100%;
+	float: left;
+	padding-left: 25em;
+}
+
+.ribbon3 {
+	position: relative;
+	top: 15em;
+	height: 100%;
+	float: left;
+	padding-left: 25em;
+}
+
+.ribbon4 {
+	position: relative;
+	top: 15em;
+	height: 100%;
+	float: left;
+	padding-left: 19em;
+}
+
+.ribbon5 {
+	position: relative;
+	top: 12.9em;
+	height: 100%;
+	float: left;
+	padding-left: 10em;
+}
+
+.details {
+	text-align: left;
+	vertical-align: top;
+	display: inline-block;
+	padding-left: 42em;
+	padding-top: 12em;
+}
+
+.details2 {
+	width: 30%;
+	text-align: left;
+	vertical-align: top;
+	display: inline-block;
+	padding-left: 5em;
+	padding-top: 13.5em;
+}
+
+.details3 {
+	width: 30%;
+	text-align: left;
+	vertical-align: top;
+	display: inline-block;
+	padding-left: 4.5em;
+	padding-top: 14em;
+}
+
+.details4 {
+	width: 30%;
+	text-align: left;
+	vertical-align: top;
+	display: inline-block;
+	padding-left: 42.5em;
+	padding-top: 7em;
+}
+
+.navexample {
+	background-color: black;
+	width: 80%;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.menu-heading {
+	display: block;
+	color: white;
+}
+a:hover, a:active {
+	color: white;
+	border-bottom: 4px solid #FFFFFF;
+	padding-bottom: 10px;
+}
+
+
+/*.enteremail form.col {
+	float: right;
+	margin: 0 14px 0 0;
+	width: 287px;
+}*/
+
+input {
+	border-radius: 0;
+	border: 1px solid #cacaca;
+	background-color: #fff;
+	color: #7b7b7b;
+	padding: 8px 12px;
+	font-weight: normal;
+	font-size: 13px;
+	margin: 0;
+}
+
+/*input[type="submit"] {
+	margin-left: -6px;
+	padding: 9px 12px;
+	color: #bbb;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}*/
+
+hr {
+	margin-top: 100px;
+}
+
+.help {
+	margin-top: 0;
+	padding-bottom:7px;
+}
+
+.help .footer ul,
+.help .footer li {
+	list-style-type: none;
+	margin: 0;
+	padding: 1em;
+	padding-left: 7em;
+	float: left;
+	padding-bottom: 1em;
+}
+
+.help .footer a {
+	font-size: 13px;
+	line-height: 24px;
+	color: #616161;
+}
+
+.help a:hover, .help a:active {
+	border-bottom: 2px solid #cacaca;
+	padding-bottom: 3px;
+}
+
+/*.is-selected a {
+	color: white;
+	border-bottom: 4px solid #ccb578;
+}*/
