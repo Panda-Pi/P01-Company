@@ -52,12 +52,44 @@ ul{
 	text-align: center;
 	padding-right: 60px;
 	letter-spacing: 3px;
+	display: inline;
 }
 
 ul li {
 	display: inline-block;
 	padding: 0 20px 0 20px;
 	position: relative;
+	cursor: pointer;
+}
+
+ul li ul{
+	padding: 0;
+	position: absolute;
+	display: none;
+	visibility: hidden;
+	top: 2.15em;
+	left: 0.5em;
+	width: 150px;
+}
+
+ul li ul li{
+	display: block;
+	padding: 1em;
+	background: #000;
+	color: #ccb578;
+}
+
+ul li ul li:hover{
+	background: #000;
+	color: white;
+	border-bottom: 3px solid #FFFFFF;
+	padding-bottom: 10px;
+}
+
+ul li:hover ul{
+	display: block;
+	opacity: 1;
+	visibility: visible;
 }
 
 li a {
@@ -211,6 +243,10 @@ a:hover, a:active {
 	color: white;
 	border-bottom: 4px solid #FFFFFF;
 	padding-bottom: 10px;
+}
+
+.form{
+	border-radius: 4px;
 }
 
 
