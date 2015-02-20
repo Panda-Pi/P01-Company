@@ -75,18 +75,6 @@ a:hover, a:active {
 	padding: 0.3em 0.5em;
 }
 
-.btn{
-	background: #000;
-	border: 0 none;
-	cursor: pointer;
-}
-
-.btn:active{
-	background: #000;
-	color: white;
-	padding-bottom: 10px;
-}
-
 .icon{
 	padding: 0 0.8em 0 0.8em;
 	float: right;
