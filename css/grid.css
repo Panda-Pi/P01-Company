@@ -1,0 +1,112 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+*, *::after, *::before{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+
+.titleImg{
+	width: 110%;
+	height: 110%;
+	padding-top: 2em;
+}
+
+.mainBox{
+	width: 100%;
+	height: 80%;
+	background: #fff;
+	position: absolute;
+	left: 0;
+	z-index: -1;
+	display: inline-block;
+
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.contentBox{
+	position: relative;
+	display: block;
+	margin: 0.5em 3em;
+	padding-right: 0;
+	padding-left: 0;
+	width: 42%;
+}
+
+.contentBox-Img{
+	position: relative;
+	display: inline-block;
+	margin: 0.5em 3em;
+	padding-right: 0;
+	padding-left: 0;
+	width: 32%;
+}
+
+.heading{
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	padding-top: 8em;
+	text-align: center;
+}
+
+.paragraph{
+	text-align: center;
+}
+
+.btn{
+	text-decoration: none;
+	background-color: black;
+	border:1px solid black;
+	border-radius: 0;
+	color: white;
+	margin-top: -8px;
+	margin-left: -6px;
+	padding: 7px 12px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+a.btn:hover, a.btn:focus{
+	text-decoration: none;
+	background-color: white;
+	border:1px solid black;
+	border-radius: 0;
+	color: black;
+	margin-top: -8px;
+	margin-left: -6px;
+	padding: 7px 12px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: background 0.5s ease-in-out 0s;
+}
+
+.contentBox-Nav{
+	width: 100%;
+	position: static;
+	display: block;
+	flex-grow: 1;
+	left: 0;
+	margin-top: 3em;
+	margin-left: 2em;
+}
+
+.contentBox2{
+	position: relative;
+	display: inline-block;
+	margin: 0.5em 0;
+	padding-right: 0;
+	padding-left: 0;
+	width: 10%;
+}
+

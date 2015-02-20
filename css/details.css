@@ -1,0 +1,51 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+.productImg{
+	border: 0.1em solid #616161;
+	/*padding: 1em;*/
+	display: block;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+.detailHead{
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	text-align: left;
+	margin: 0;
+}
+
+.details{
+	text-align: left;
+}
+
+.detailsList{
+	list-style-type: square;
+	display: block;
+}
+
+.extraPic{
+	width: 100%;
+	height: 100%;
+	float: left;
+	margin: 0;
+	cursor: pointer;
+}
+
+.isSelected{
+	border: 0.1em solid #616161;
+}
+
+.extraPic2{
+	border: 0.1em solid #cacaca;
+	width: 100%;
+	height: 100%;
+	float: left;
+	margin: 0;
+	margin-top: 0.94em;
+	cursor: pointer;
+}
