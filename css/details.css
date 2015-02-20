@@ -26,6 +26,7 @@ body{
 .detailsList{
 	list-style-type: square;
 	display: block;
+	font-size: 15px;
 }
 
 .extraPic{
