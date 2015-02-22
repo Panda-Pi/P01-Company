@@ -1,0 +1,87 @@
+.browse{
+	color: #616161;
+	font-size: 13px;
+	padding: 0;
+	display: block;
+	position: relative;
+	margin: 0;
+	width: 12em;
+	padding: 1em;
+	left: 0;
+}
+
+.browseMain{
+	text-align: left;
+	padding: 0;
+}
+
+.browseMain li a:hover, .browseMain li a:active{
+	padding-bottom: 2px;
+	border-bottom: 1px solid #616161;
+	font-size: 12px;
+}
+
+.browse li{
+	display: block;
+	color: #616161;
+	padding: 1em 1.5em;
+	text-align: left;
+	font-size: 12px;
+}
+
+.browse li a{
+	color: #616161;
+	font-size: 12px;
+}
+
+
+.browse a:hover, .browse a:active{
+	padding-bottom: 2px;
+	border-bottom: 1px solid #616161;
+	font-size: 12px;
+}
+
+.contentBox-browse-grid-img{
+	width: 100%;
+	border: 1px solid #616161;
+}
+
+.contentBox-browse-grid ul{
+	width: 100%;
+	display: block;
+	padding: 0;
+	margin: 0;
+	margin-left: 0;
+	margin-bottom: 2.5em;
+	font-size: 12px;
+}
+
+.contentBox-browse-grid ul li{
+	width: 100%;
+	display: block;
+	padding: 0;
+	margin: 0;
+	margin-left: 0;
+	font-size: 12px;
+}
+
+.contentBox-browse-grid ul li a{
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+	color: #616161;
+	padding: 0;
+	text-transform: uppercase;
+}
+
+.contentBox-browse-grid ul li a:active, a:hover{
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+	color: #616161;
+	border-bottom: 1px solid #616161;
+}
+
+.isSelected{
+	border-bottom: 0.1em solid #616161;
+}
