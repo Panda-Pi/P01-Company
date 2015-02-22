@@ -21,12 +21,11 @@ body{
 
 .mainBox{
 	width: 100%;
-	height: 80%;
+	height: 100%;
 	background: #fff;
 	position: absolute;
 	left: 0;
 	z-index: -1;
-	display: inline-block;
 
 	display: -webkit-flex;
 	display: -ms-flex;
@@ -41,6 +40,7 @@ body{
 	padding-right: 0;
 	padding-left: 0;
 	width: 42%;
+	height: 100%;
 }
 
 .contentBox-Img{
@@ -108,5 +108,32 @@ a.btn:hover, a.btn:focus{
 	padding-right: 0;
 	padding-left: 0;
 	width: 10%;
+}
+
+.contentBoxSide{
+	position: relative;
+	display: inline-block;
+	margin: 0.5em 2em;
+	padding-right: 0;
+	padding-left: 0;
+	width: 12%;
+	height: 100%;
+	border-right: 1px solid #616161;
+}
+
+.contentBox-browse{
+	position: relative;
+	display: block;
+	margin: 0.5em 0em;
+	padding-right: 0;
+	padding-left: 0;
+	width: 76%;
+	height: 100%;
+}
+
+.contentBox-browse-grid{
+	width: 18%;
+	display: inline-block;
+	margin: 0 2em;
 }
 
