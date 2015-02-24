@@ -127,13 +127,35 @@ a.btn:hover, a.btn:focus{
 	margin: 0.5em 0em;
 	padding-right: 0;
 	padding-left: 0;
-	width: 76%;
+	width: 80%;
 	height: 100%;
 }
 
 .contentBox-browse-grid{
-	width: 18%;
+	width: 25%;
 	display: inline-block;
 	margin: 0 2em;
+	height: 25%;
 }
 
+.content-half{
+	width: 50%;
+	height: 100%;
+	padding: 0.5em 4em;
+	border-right: 1px solid #616161;
+}
+
+.content-half2{
+	width: 50%;
+	height: 100%;
+	padding: 0.5em 4em;
+}
+
+.content-form{
+	margin: 4em 0 2em 5em;
+	padding-left: 6em;
+}
+
+.content-login{
+	padding-left: 11.5em;
+}
