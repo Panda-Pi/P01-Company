@@ -61,6 +61,12 @@ body{
 }
 
 .paragraph{
+	text-align: left;
+	width: 100%;
+	padding: 1em 5em;
+}
+
+.paragraphBtn{
 	text-align: center;
 }
 
