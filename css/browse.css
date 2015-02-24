@@ -34,7 +34,6 @@
 	font-size: 12px;
 }
 
-
 .browse a:hover, .browse a:active{
 	padding-bottom: 2px;
 	border-bottom: 1px solid #616161;
@@ -46,35 +45,28 @@
 	border: 1px solid #616161;
 }
 
-.contentBox-browse-grid ul{
-	width: 100%;
-	display: block;
+.contentBox-browse-grid{
+	width: 20%;
+	display: inline-block;
 	padding: 0;
-	margin: 0;
-	margin-left: 0;
-	margin-bottom: 2.5em;
+	margin: 2em;
 	font-size: 12px;
+	text-align: center;
+	height: 20%;
 }
 
-.contentBox-browse-grid ul li{
-	width: 100%;
-	display: block;
-	padding: 0;
-	margin: 0;
-	margin-left: 0;
-	font-size: 12px;
-}
-
-.contentBox-browse-grid ul li a{
+.contentBox-browse-grid a{
 	width: 100%;
 	text-align: center;
 	font-size: 12px;
 	color: #616161;
 	padding: 0;
 	text-transform: uppercase;
+	text-decoration: none;
+	line-height: 150%;
 }
 
-.contentBox-browse-grid ul li a:active, a:hover{
+.browse-anchor:active, .browse-anchor:hover{
 	width: 100%;
 	text-align: center;
 	font-size: 12px;
