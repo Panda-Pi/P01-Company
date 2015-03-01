@@ -2,17 +2,17 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Details Page Template</title>
+    <title>Cart Page Template</title>
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/navBar.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/details.css">
+    <link rel="stylesheet" href="css/cart.css">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,500' rel='stylesheet' type='text/css'>
   </head>
   <body>
 	<div class="header">
 		<div class="logo">
-			<a href="main.html"><img src="img/logo.png" height="40" width="120" alt="logo"></a>
+		<a href="main.html"><img src="img/logo.png" height="40" width="120" alt="logo"></a>
 		</div>
 		<ul class="menu-item">
 			<li>
@@ -39,7 +39,7 @@
 			<a href="login.html"><img border="0" alt="bag" src="img/user.png" width="20" height="20"></a>
 			</div></li>
 			<li class="icon"><div class="bag">
-			<a href="cart.html"><img border="0" alt="bag" src="img/bag.png" width="20" height="20"></a>
+			<a href="#"><img border="0" alt="bag" src="img/bag.png" width="20" height="20"></a>
 			</div></li>
 			<li class="icon">
 				<div class="search">
@@ -55,56 +55,24 @@
         </ul>
 	</div>
 
-
-
 	<div class="mainBox">
-		<div class="contentBox-Nav">
-			<ul class="subNavList">
-				<li><a href="main.html">HOME</a></li>
-				<li>></li>
-				<li><a href="#">WOMEN</a></li>
-				<li>></li>
-				<li><a href="browse.html">Michael Kors</a></li>
-				<li>></li>
-				<li><a href="details.html">SELMA SAFFIANO LEATHER MEDIUM SATCHEL</a></li>
-			</ul>
-		</div>
-
-		<div class="contentBox-Img">
-			<img class="productImg" src="img/MKproduct1.png" alt="MKproduct1">
-		</div>
-
-		<div class="contentBox2">
-				<img class="extraPic isSelected" src="img/MKproduct1.png" atl="MKproduct1">
-				<img class="extraPic2" src="img/MKproduct2.png" atl="MKproduct2">
-				<img class="extraPic2" src="img/MKproduct3.png" atl="MKproduct3">
-		</div>
-
-		<div class="contentBox">
-			<h2 class="detailHead">Michael Kors Selma Saffiano Leather Medium Satchel</h2>
-			<p class="details">
-				<ol class="detailsList">
-					<li>100% Cow Leather</li>
-					<li>Top Handle: 4.5"</li>
-					<li>Adjustable Strap: 17.5-19.5"</li>
-					<li>Interior: One inside zip pocket, two open inside pockets</li>
-					<li>Dimensions: 13x8x4"</li>
-					<li>Top Zip</li>
-					<li>100% Polyester Lining</li>
-					<li>Imported</li>
-				</ol>
-				<img class="swatches1 isSelected" src="img/palePink.jpg">
-				<img class="swatches isSelected" src="img/paleBlue.jpg">
-				<img class="swatches isSelected" src="img/watermelon.jpg">
-				<img class="swatches isSelected" src="img/mandarin.jpg">
-
-				<p>Price: $278</p>
-
-				<p>Quantity:
-					<p class="details-quantity"><input id="username" type="number" value="1"></p>
-					<a class="addBtn" href="#">Add to cart</a>
-				</p>
-			</p>
+		<div class="content-cart">
+			<h2 class="heading-cart">CART</h2>
+			<div class="content-cart-table">
+				<h2 class="content-cart-table-name">Item</h2>
+				<h2 class="content-cart-table-color">Color</h2>
+				<h2 class="content-cart-table-quan">Quantity</h2>
+			</div>
+			<div class="content-cart-item">
+				<a href="details.html"><img class="cart-image" src="img/MKproduct1.png"></a>
+				<div class="content-cart-details">
+					<h2 class="content-cart-item-name"><a class="item-name-link" href="details.html">MICHAEL KORS SELMA SAFFIANO LEATHER MEDIUM SATCHEL</a></h2>
+					<h2 class="content-cart-item-detail">Pale Pink</h2>
+					<p class="content-cart-item-quan"><input id="username" type="number" value="1"></p>
+					<p class="content-cart-item-price">$278</p>
+					<p class="content-cart-item-remove"><a href="">X</a></p>
+				</div>
+			</div>
 		</div>
 	</div>
 

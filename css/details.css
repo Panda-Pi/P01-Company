@@ -65,40 +65,16 @@ body{
 	margin: 0.5em;
 }
 
-.drop{
-	margin: 0;
-	padding: 0;
+.details-quantity{
+	width: 10%;
+	height: 5%;
+}
+
+.details-quantity input{
+	padding: 0.5em;
+	width: 100%;
 	display: inline-block;
-}
-
-.drop .dropdown {
-	border: 0.1em solid #616161;
-	padding: 0.5em 2em;
-	color: #000;
-}
-
-.drop .dropdown a{
-	color: #000;
-	text-align: center;
-}
-
-.quanDrop{
-	border: 0.1em solid #616161;
-	left: -1px;
-	top: 2.2em;
-}
-
-.quanDrop .numbers{
-	background-color: #fff;
-	color: #000;
-	display: block;
-	padding: 0.5em 2em;
-	text-align: center;
-}
-
-.quanDrop .numbers:hover{
-	border: none;
-	background-color: #cacaca;
+	margin: 0;
 }
 
 .addBtn{
@@ -106,10 +82,12 @@ body{
 	background: #000;
 	border: 1px solid #000;
 	color: #fff;
+	font-size: 13px;
 	border-radius: 0;
 	padding: 7px 12px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
+	display: inline-block;
 }
 
 a.addBtn:hover, a.addBtn:active{
@@ -122,4 +100,5 @@ a.addBtn:hover, a.addBtn:active{
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	transition: background 0.2s ease-in-out 0s;
+	display: inline-block;
 }
