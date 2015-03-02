@@ -38,7 +38,7 @@ ul li{
 
 li a{
 	text-decoration: none;
-	color: #ccb578
+	color: #ccb578;
 }
 
 a:hover, a:active {
@@ -156,8 +156,4 @@ ul li:hover ul{
 .subNavList a:hover, .subNavList a:active{
 	padding-bottom: 2px;
 	border-bottom: 1px solid #616161;
-}
-
-.sideNav{
-	
 }
