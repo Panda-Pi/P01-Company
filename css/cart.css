@@ -66,6 +66,7 @@ a.item-name-link{
 a.item-name-link:hover, a.item-name-link:active{
 	text-decoration: none;
 	color: #616161;
+	transition: color 0.2s ease-in-out 0s;
 }
 
 .content-cart-item-detail{
@@ -129,4 +130,5 @@ a.item-name-link:hover, a.item-name-link:active{
 .content-cart-item-remove a:hover, .content-cart-item-remove a:active{
 	text-decoration: none;
 	color: #616161;
+	transition: color 0.2s ease-in-out 0s;
 }
