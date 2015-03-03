@@ -23,17 +23,21 @@ html{
 
 
 .titleImg{
-	width: 55%;
-	height: 70%;
+	width: 100%;
+	height: 100%;
 	padding-top: 2em;
+	z-index: -1;
+	position: relative;
 }
 
 .mainBox{
 	width: 100%;
 	height: 100%;
+	display: inline-block;
 	background: #fff;
 	position: absolute;
 	left: 0;
+	top: 0;
 	z-index: -1;
 
 	display: -webkit-flex;
@@ -61,18 +65,35 @@ html{
 	width: 32%;
 }
 
+.heading-about{
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+}
+
 .heading{
 	font-weight: 300;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	padding-top: 5em;
+	width: 100%;
 	text-align: center;
+}
+
+.paragraph-about{
+	text-align: left;
+	width: 100%;
+	font-size: 13px;
+	padding: 1em 0;
 }
 
 .paragraph{
 	text-align: left;
 	width: 100%;
-	padding: 0 5em 1em 5em;
+	font-size: 16px;
+	padding: 1em 0;
 }
 
 .paragraphBtn{
@@ -108,11 +129,12 @@ a.btn:hover, a.btn:focus{
 
 .contentBox-Nav{
 	width: 100%;
-	position: static;
-	display: block;
-	flex-grow: 1;
+	height: 7%;
+	position: relative;
+	display: inline-block;
+
 	left: 0;
-	margin-top: 3em;
+	margin-top: 3.2em;
 	margin-left: 2em;
 }
 
@@ -128,7 +150,7 @@ a.btn:hover, a.btn:focus{
 .contentBoxSide{
 	position: relative;
 	display: inline-block;
-	margin: 0.5em 2em;
+	margin: 1em 2em;
 	padding-right: 0;
 	padding-left: 0;
 	width: 12%;
@@ -195,4 +217,39 @@ a.btn:hover, a.btn:focus{
 	width: 85%;
 	padding-top: 5em;
 	display: inline-block;
+}
+
+.contentBox-about{
+	height: 20%;
+	position: relative;
+	display: inline-block;
+	padding: 0 5em;
+}
+
+.contentBox-title{
+	width: 100%;
+	height: 30%;
+	margin: 2em 5em 1em 5em;
+}
+
+.contentBox-event{
+	height: 100%;
+	width: 100%;
+	position: relative;
+	display: inline-block;
+}
+
+.contentBox-event-detail{
+	width: 50%;
+	height: 70%;
+	padding: 8em 5em;
+	z-index: 1;
+	margin-top: -35em;
+}
+
+.contentBox-event-1-3{
+	width: 33%;
+	height: 90%;
+	display: inline-block;
+	padding: 3em;
 }

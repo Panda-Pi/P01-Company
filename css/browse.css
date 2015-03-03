@@ -5,8 +5,7 @@
 	display: block;
 	position: relative;
 	margin: 0;
-	width: 12em;
-	padding: 1em;
+	width: 100%;
 	left: 0;
 }
 
@@ -24,7 +23,7 @@
 .browse li{
 	display: block;
 	color: #616161;
-	padding: 1em 1.5em;
+	padding: 1em 0.3em;
 	text-align: left;
 	font-size: 12px;
 }
