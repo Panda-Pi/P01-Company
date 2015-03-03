@@ -4,153 +4,135 @@ body{
 
 .header{
 	width: 100%;
-	background-color: black;
-	position: fixed;
+	height: 3.2em;
+	background: #000;
 	top: 0;
 	left: 0;
-	display: block;
+	position: fixed;
+}
+
+.logo{
+	width: 20%;
+	padding: 0.4em;
+	display: inline-block;
+	position: relative;
+	height: 100%;
+	vertical-align: top;
 	text-align: center;
-	border-bottom: none;
+	padding-left: 1.5em;
+}
+
+.dropdown{
+	width: 65%;
+	height: 100%;
+	display: inline-block;
+	text-align: center;
 }
 
 .menu-item{
-	display: block;
-	color: white;
-	z-index: 2;
-	position: relative;
-}
-
-ul{
-	list-style-type: none;
-	position: relative;
-	text-align: center;
-	padding: 0 2em 0 2em;
-	letter-spacing: 0.2em;
-	display: inline;
-}
-
-ul li{
 	display: inline-block;
-	padding: 0 1em 0 1em;
 	position: relative;
+	width: 25%;
+	height: 100%;
+	padding: 1em;
+	vertical-align: top;
+	text-align: center;
 	cursor: pointer;
 }
 
-li a{
-	text-decoration: none;
+.menu-item a{
 	color: #ccb578;
+	text-decoration: none;
+	list-style-type: none;
+	letter-spacing: 0.2em;
 }
 
-a:hover, a:active {
+.menu-item a:hover, .menu-item a:active{
 	color: white;
 	border-bottom: 4px solid #FFFFFF;
 	padding-bottom: 10px;
 	transition: background 0.3s ease-in-out 0s;
 }
 
-.bag{
-	position: relative;
-	display: inline-block;
-}
-
-.user{
-	position: relative;
-	display: inline-block;
-}
-
-.search{
-	position: relative;
-	display: inline-block;
-}
-
-.form{
-	top: 0;
-	display: inline-block;
-	position: relative;
-}
-
-.field{
-	border-radius: 4px;
-	border: 0 none;
-	padding: 0.3em 0.5em;
-}
-
-.icon{
-	padding: 0 0.8em 0 0.8em;
-	float: right;
-}
-
-.logo{
-	float: left;
-	padding-left: 2em;
-	padding-top: 0.3em;
-	position: relative;
+.hide{
+	visibility: hidden;
+	opacity: 0;
 }
 
 .list{
-	font-size: 12px;
-	width: 8.7rem;
-}
-
-.list2{
-	font-size: 12px;
-	width: 6.7rem;
-}
-
-ul li ul{
-	padding: 0;
-	position: absolute;
-	display: none;
-	visibility: hidden;
-	top: 2.1rem;
-}
-
-ul li ul li{
+	list-style-type: none;
+	text-align: center;
+	background: black;
 	display: block;
-	padding: 1em 0 1em 0;
-	background: #000;
-	color: #ccb578;
-	z-index: 0;
+	padding: 1em 0;
+	font-size: 12px;
+	cursor: pointer;
+	width: 75%;
+	margin-left: 2em;
 }
 
-ul li ul li:hover{
-	background: #000;
-	color: white;
-	border-bottom: 2px solid #FFFFFF;
-	padding-bottom: 10px;
-
-	transition: background 0.3s ease-in-out 0s;
-}
-
-ul li:hover ul{
-	display: block;
-	opacity: 1;
-	visibility: visible;
-	transition: background 0.5s ease-in-out 0s;
-}
-
-.subNav{
-	padding-top: 2em;
-	float: left;
-	flex-grow: 1;
+.list li{
+	padding: 1em 0;
 	width: 100%;
+	color: #ccb578;
+	display: block;
+}
+
+.list li:hover, .list li:active{
+	border-bottom: 1px solid #fff;
+}
+
+.list li a:hover, .list li a:active{
+	padding-bottom: 0;
+	color: #fff;
+	border-bottom: none;
+}
+
+.menu-item:hover>.list{
+	visibility: visible;
+	opacity: 1;
+	transition-delay: 0s;
+}
+
+.icon{
+	list-style-type: none;
+	height: 100%;
+	width: 30%;
+	padding: 1em 0;
+	display: inline-block;
+}
+
+.navBar-icon{
+	float: right;
+	width: 10%;
+	height: 100%;
+	display: inline-block;
+}
+
+.icon a:hover, .icon a:active{
+	border-bottom: 4px solid #fff;
+	padding-bottom: 0.3em;
 }
 
 .subNavList{
 	display: inline-block;
+	list-style-type: none;
+	padding: 0;
 }
 
 .subNavList li{
 	color: #616161;
-	padding: 0;
-
+	padding: 0 0.3em;
+	display: inline-block;
 	font-size: 13px;
+	text-decoration: none;
 }
 
 .subNavList li a{
 	color: #616161;
 	padding: 0;
 	font-size: 13px;
+	text-decoration: none;
 }
 
 .subNavList a:hover, .subNavList a:active{
