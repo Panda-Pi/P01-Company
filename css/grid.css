@@ -1,5 +1,6 @@
 body{
 	font-family: 'Roboto', sans-serif;
+	width: 100%;
 }
 
 @-ms-viewport{
@@ -8,7 +9,7 @@ body{
 
 html{
 	width: 100%;
-	height: 100%;
+	height: auto;
 }
 
 *, *::after, *::before{
@@ -48,21 +49,27 @@ html{
 
 .contentBox{
 	position: relative;
-	display: block;
-	margin: 0.5em 3em;
+	display: inline-block;
+	margin: 0.5em 2em;
 	padding-right: 0;
 	padding-left: 0;
-	width: 42%;
-	height: 100%;
+	width: 40%;
+	height: auto;
+	vertical-align: top;
+}
+
+.contentBox-detailPG{
+	width: 100%;
+	height: auto;
+	margin-bottom: 2em;
 }
 
 .contentBox-Img{
 	position: relative;
 	display: inline-block;
-	margin: 0.5em 3em;
-	padding-right: 0;
-	padding-left: 0;
-	width: 32%;
+	padding: 0.5em 2em;
+	width: 40%;
+	height: 100%;
 }
 
 .heading-about{
@@ -70,8 +77,9 @@ html{
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	width: 100%;
+	height: 20%;
 	text-align: center;
-	font-size: 18px;
+	font-size: 20px;
 }
 
 .heading{
@@ -80,19 +88,22 @@ html{
 	letter-spacing: 3px;
 	width: 100%;
 	text-align: center;
+	font-size: 20px;
 }
 
 .paragraph-about{
 	text-align: left;
 	width: 100%;
+	height: 80%;
 	font-size: 13px;
 	padding: 1em 0;
+	line-height: 1.8em;
 }
 
 .paragraph{
 	text-align: left;
 	width: 100%;
-	font-size: 16px;
+	font-size: 13px;
 	padding: 1em 0;
 }
 
@@ -129,7 +140,7 @@ a.btn:hover, a.btn:focus{
 
 .contentBox-Nav{
 	width: 100%;
-	height: 7%;
+	height: auto;
 	position: relative;
 	display: inline-block;
 
@@ -141,10 +152,17 @@ a.btn:hover, a.btn:focus{
 .contentBox2{
 	position: relative;
 	display: inline-block;
-	margin: 0.5em 0;
-	padding-right: 0;
-	padding-left: 0;
-	width: 10%;
+	width: 10.5%;
+	/*height: 10%;*/
+	vertical-align: top;
+	margin: 0.5em;
+}
+
+.contentBox2-img{
+	width: 100%;
+	height: auto;
+	display: block;
+	position: relative;
 }
 
 .contentBoxSide{
@@ -154,18 +172,18 @@ a.btn:hover, a.btn:focus{
 	padding-right: 0;
 	padding-left: 0;
 	width: 12%;
-	height: 100%;
+	height: auto;
 	border-right: 1px solid #616161;
 }
 
 .contentBox-browse{
 	position: relative;
 	display: block;
-	margin: 0.5em 0em;
+	margin: 0.5em 0em 4em 0em;
 	padding-right: 0;
 	padding-left: 0;
 	width: 80%;
-	height: 100%;
+	height: auto;
 }
 
 .contentBox-browse-grid{
@@ -177,19 +195,32 @@ a.btn:hover, a.btn:focus{
 
 .content-half{
 	width: 50%;
-	height: 100%;
+	height: auto;
 	padding: 0.5em 4em;
 	border-right: 1px solid #616161;
 }
 
 .content-half2{
 	width: 50%;
-	height: 100%;
+	height: auto;
 	padding: 0.5em 4em;
 }
 
+@media(max-width: 60em){
+	.content-half{
+		width: 100%;
+		border-right: 0;
+		border-bottom: 1px solid #616161
+	}
+
+	.content-half2{
+		width: 100%;
+		margin-bottom: 3.5em;
+	}
+}
+
 .content-form{
-	margin: 4em 0 2em 5em;
+	margin: 4em 0 8em 5em;
 	padding-left: 6em;
 }
 
@@ -199,37 +230,73 @@ a.btn:hover, a.btn:focus{
 
 .content-cart{
 	width: 100%;
-	height: 100%;
+	height: auto;
 	margin: 5em;
 }
 
 .content-cart-item{
-	height: 25%;
+	height: auto;
 	width: 100%;
-	/*margin-top: 1em;*/
+	padding: 1em 0;
 	display: inline-block;
 	border-bottom: 1px solid #cacaca;
-	border-top: 1px solid #cacaca;
 }
 
 .content-cart-details{
-	height: 100%;
+	height: auto;
 	width: 85%;
 	padding-top: 5em;
 	display: inline-block;
 }
 
+.content-cart-total{
+	width: 100%;
+	display: inline-block;
+	position: relative;
+}
+
+.content-cart-total-comments{
+	width: 50%;
+	height: auto;
+	margin: 2em 0;
+	display: inline-block;
+	float: left;
+	padding-right: 1em;
+}
+
+.content-cart-total-checkout{
+	width: 50%;
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+	margin: 2em 0;
+	float: left;
+	height: auto;
+}
+
+.content-cart-total-checkout-price{
+	border-bottom: 1px solid #cacaca;
+}
+
+.content-cart-checkoutBtn{
+	width: 100%;
+	text-align: right;
+	padding-top: 2.4em;
+}
+
 .contentBox-about{
-	height: 20%;
+	height: auto;
 	position: relative;
 	display: inline-block;
-	padding: 0 5em;
+	padding: 0 2em;
 }
 
 .contentBox-title{
 	width: 100%;
-	height: 30%;
-	margin: 2em 5em 1em 5em;
+	height: auto;
+	margin: 2em 20em;
+	position: relative;
+	display: inline-block;
 }
 
 .contentBox-event{
@@ -241,8 +308,8 @@ a.btn:hover, a.btn:focus{
 
 .contentBox-event-detail{
 	width: 50%;
-	height: 70%;
-	padding: 8em 5em;
+	height: auto;
+	padding: 8em 8em;
 	z-index: 1;
 	margin-top: -35em;
 }
@@ -252,4 +319,114 @@ a.btn:hover, a.btn:focus{
 	height: 90%;
 	display: inline-block;
 	padding: 3em;
+}
+
+@media (max-width: 80em){
+	.contentBox-title{
+		margin: 2em 15em;
+	}
+
+	.contentBox-about{
+		padding: 0;
+	}
+}
+
+
+@media (max-width: 40em){
+	.contentBox-title{
+		position: relative;
+		display: inline-block;
+		margin: 15em 0 1em 0;
+		border-top: 1px solid #616161;
+	}
+
+	.contentBox-about{
+		padding: 2em 2em;
+	}
+
+	.contentBox-event-detail{
+		width:100%;
+		display: inline-block;
+		position: relative;
+		margin-top: 1em;
+		padding: 0 2em;
+	}
+
+	.contentBox-Img{
+		width: 95%;
+	}
+
+	.contentBox2{
+		width: 100%;
+		margin: 1em 2em;
+	}
+
+	.contentBox2-img{
+		display: inline-block;
+		width: 25%;
+	}
+
+	.content-form{
+		margin: 0 2em;
+	}
+
+	.content-half{
+		padding: 2em;
+	}
+
+	.content-half2{
+		padding: 2em;
+	}
+
+	.content-login{
+		padding: 0.5em 0;
+		text-align: center;
+	}
+
+	.contentBox-browse{
+		padding: 0 2em;
+	}
+
+	.contentBox{
+		width: 80%;
+		margin-bottom: 2em;
+	}
+
+	.content-form{
+		padding: 1em 0;
+	}
+
+	.contentBoxSide{
+		width: 100%;
+		border-right: 0;
+		border-bottom: 1px solid #616161;
+	}
+
+	.content-cart{
+		margin: 3em 1em 1em 1em;
+	}
+
+	.content-cart-details{
+		width: 100%;
+		padding: 0;
+	}
+
+	.content-cart-total-comments{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	.content-cart-total-checkout{
+		width: 100%;
+		margin: 0;
+	}
+
+	.content-cart-checkoutBtn{
+		padding: 1em 0;
+	}
+
+	.contentBox-Nav{
+		margin-left: 1em;
+	}
 }

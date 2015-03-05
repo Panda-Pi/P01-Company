@@ -15,9 +15,11 @@
 		<div class="logo">
 			<a href="main.html"><img src="img/logo.png" height="100%" width="80%" alt="logo"></a>
 		</div>
-		<div class="dropdown">
+		<a href="#" id="navToggle">SHOP</a>
+		<nav class="dropdown">
 			<div class="menu-item">
-				<a href="#">SHOP WOMEN</a>
+				<a id="menu-item-women" href="#">SHOP WOMEN</a>
+				<a id="menu-item-women-ham" class="dd-toggle" href="#">SHOP WOMEN</a>
 				<ul class="list hide">
 	              <li><a href="#">Coach</a></li>
 	              <li><a href="browse.html">Michael Kors</a></li>
@@ -30,14 +32,14 @@
 	            </ul>
 	        </div>
 	        <div class="menu-item">
-				<a href="#">SHOP MEN</a>
+	        	<a id="menu-item-men" href="#">SHOP MEN</a>
+				<a id="menu-item-men-ham" class="dd-toggle" href="#">SHOP MEN</a>
 				<ul class="list hide">
 	              <li><a href="#">Coach</a></li>
 	              <li><a href="#">Gucci</a></li>
 	          	</ul>
 	      	</div>
-	    </div>
-	    <div class="navBar-icon">
+	      	<div class="navBar-icon">
 	    	<div class="icon">
 	    		<a href=""><img src="img/search.png" width="20" height="20"></a>
 	    	</div>
@@ -48,6 +50,8 @@
 	    		<a href="login.html"><img src="img/user.png" width="20" height="20"></a>
 	    	</div>
 	    </div>
+	    </nav>
+	    
 	</div>
 
 	<div class="mainBox">
@@ -57,40 +61,69 @@
 				<h2 class="content-cart-table-name">Item</h2>
 				<h2 class="content-cart-table-color">Color</h2>
 				<h2 class="content-cart-table-quan">Quantity</h2>
+				<h2 class="content-cart-table-price">Price</h2>
 			</div>
 			<div class="content-cart-item">
-				<a href="details.html"><img class="cart-image" src="img/MKproduct1.png"></a>
-				<div class="content-cart-details">
-					<h2 class="content-cart-item-name"><a class="item-name-link" href="details.html">MICHAEL KORS SELMA SAFFIANO LEATHER MEDIUM SATCHEL</a></h2>
-					<h2 class="content-cart-item-detail">Pale Pink</h2>
-					<p class="content-cart-item-quan"><input id="username" type="number" value="1"></p>
-					<p class="content-cart-item-price">$278</p>
-					<p class="content-cart-item-remove"><a href="">X</a></p>
+				<div class="content-cart-item-detail">
+					<a href="details.html"><img class="cart-image" src="img/MKproduct1.png"></a>
+					<!-- <div class="content-cart-details"> -->
+					<div class="content-cart-item-name">
+						<a class="item-name-link" href="details.html">MICHAEL KORS SELMA SAFFIANO LEATHER MEDIUM SATCHEL</a>
+					</div>
+					<div class="content-cart-item-color">Pale Pink</div>
+					<div class="content-cart-item-quan">
+						<input type="number" value="1">
+					</div>
+					<div class="content-cart-item-price">$278</div>
+					<div class="content-cart-item-remove">
+						<a href="">X</a>
+					</div>
+				</div>
+			</div>
+			<!-- </div> -->
+			
+			<div class="content-cart-total">
+				<div class="content-cart-total-comments">
+					<p>Additional comments:</p>
+					<textarea class="cart-comment" id="cart-notes-area" name="note"></textarea>
+				</div>
+				<div class="content-cart-total-checkout">
+					<div class="content-cart-total-checkout-price">
+						<h2 class="total">Subtotal:</h2>
+						<p class="total-price">$278</p>
+					</div>
+					<div class="content-cart-checkoutBtn">
+						<a class="continue" href="main.html">Continue shopping</a>
+						&nbsp; or &nbsp;
+						<a class="checkoutBtn" href="cart.html">Checkout</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="footerBox">
+				<div class="footer-1-3">
+					<div class="footer-item">
+						<a href="" lang="zh-Hant">城中市場, Jhongjheng District, Taipei City, Taiwan 100, Taipei, Taiwan 100</a>
+					</div>
+					<div class="footer-item">
+						<a href="">TEL: 02-2314-1549</a>
+					</div>
+				</div>
+				<div class="footer-2-3">
+					<p class="footer-detail">© Jen's Boutique</p>
+				</div>
+				<div class="footer-3-3">
+					<div class="footer-item-icon">
+						<a class="footer-item-icon-link" href="https://www.facebook.com/jensbutique"><img class="footer-item-icon-img" src="img/FBLOGOGREY.jpg" alt="Facebook" width="25" height="25"></a>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div class="footer">
-		<div class="footerBox">
-			<div class="footer-1-3">
-				<div class="footer-item">
-					<a href="">城中市場, Jhongjheng District, Taipei City, Taiwan 100, Taipei, Taiwan 100</a>
-				</div>
-				<div class="footer-item">
-					<a href="">TEL: 02-2314-1549</a>
-				</div>
-			</div>
-			<div class="footer-2-3">
-				<p class="footer-detail">© Jen's Boutique</p>
-			</div>
-			<div class="footer-3-3">
-				<div class="footer-item-icon">
-					<a class="footer-item-icon-link" href="https://www.facebook.com/jensbutique"><img class="footer-item-icon-img" src="img/FBLOGOGREY.jpg" alt="Facebook" width="25" height="25"></a>
-				</div>
-			</div>
-		</div>
-	</div>
+	<script src="js/jquery.js"></script>
+    <script src="js/hamburger.js"></script>
 
 	</body>
 </html>

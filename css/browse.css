@@ -18,6 +18,7 @@
 	padding-bottom: 2px;
 	border-bottom: 1px solid #616161;
 	font-size: 12px;
+	text-decoration: none;
 }
 
 .browse li{
@@ -26,21 +27,25 @@
 	padding: 1em 0.3em;
 	text-align: left;
 	font-size: 12px;
+	text-decoration: none;
 }
 
 .browse li a{
 	color: #616161;
 	font-size: 12px;
+	text-decoration: none;
 }
 
 .browse a:hover, .browse a:active{
 	padding-bottom: 2px;
 	border-bottom: 1px solid #616161;
 	font-size: 12px;
+	text-decoration: none;
 }
 
 .contentBox-browse-grid-img{
 	width: 100%;
+	height: auto;
 	border: 1px solid #616161;
 }
 
@@ -51,7 +56,7 @@
 	margin: 2em;
 	font-size: 12px;
 	text-align: center;
-	height: 20%;
+	height: auto;
 }
 
 .contentBox-browse-grid a{
@@ -75,4 +80,28 @@
 
 .isSelected{
 	border-bottom: 0.1em solid #616161;
+}
+
+.browse-price{
+	text-align: center;
+	font-size: 12px;
+	color: #616161;
+	margin: 0.5em 0;
+}
+
+@media (max-width: 40em){
+	.browse li{
+		display: inline-block;
+		padding: 1em 1em;
+	}
+
+	.browse li a{
+		height: auto;
+	}
+}
+
+@media (max-width: 40em){
+	.contentBox-browse-grid{
+		width: 100%;
+	}
 }

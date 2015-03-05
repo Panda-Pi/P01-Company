@@ -15,9 +15,11 @@
 		<div class="logo">
 			<a href="main.html"><img src="img/logo.png" height="100%" width="80%" alt="logo"></a>
 		</div>
-		<div class="dropdown">
+		<a href="#" id="navToggle">SHOP</a>
+		<nav class="dropdown">
 			<div class="menu-item">
-				<a href="#">SHOP WOMEN</a>
+				<a id="menu-item-women" href="#">SHOP WOMEN</a>
+				<a id="menu-item-women-ham" class="dd-toggle" href="#">SHOP WOMEN</a>
 				<ul class="list hide">
 	              <li><a href="#">Coach</a></li>
 	              <li><a href="browse.html">Michael Kors</a></li>
@@ -30,14 +32,14 @@
 	            </ul>
 	        </div>
 	        <div class="menu-item">
-				<a href="#">SHOP MEN</a>
+	        	<a id="menu-item-men" href="#">SHOP MEN</a>
+				<a id="menu-item-men-ham" class="dd-toggle" href="#">SHOP MEN</a>
 				<ul class="list hide">
 	              <li><a href="#">Coach</a></li>
 	              <li><a href="#">Gucci</a></li>
 	          	</ul>
 	      	</div>
-	    </div>
-	    <div class="navBar-icon">
+	      	<div class="navBar-icon">
 	    	<div class="icon">
 	    		<a href=""><img src="img/search.png" width="20" height="20"></a>
 	    	</div>
@@ -48,6 +50,8 @@
 	    		<a href="login.html"><img src="img/user.png" width="20" height="20"></a>
 	    	</div>
 	    </div>
+	    </nav>
+	    
 	</div>
 
 	<div class="mainBox">
@@ -62,65 +66,75 @@
 				<li><a href="details.html">SELMA SAFFIANO LEATHER MEDIUM SATCHEL</a></li>
 			</ul>
 		</div>
+		<div class="contentBox-detailPG">
+			<div class="contentBox-Img">
+				<img class="productImg" width="100%" height="auto" src="img/MKproduct1.png" alt="MKproduct1">
+			</div>
 
-		<div class="contentBox-Img">
-			<img class="productImg" src="img/MKproduct1.png" alt="MKproduct1">
-		</div>
+			<div class="contentBox2">
+				<div class="contentBox2-img">
+					<img class="extraPic isSelected" src="img/MKproduct1.png" width="100%" height="auto" atl="MKproduct1">
+				</div>
+				<div class="contentBox2-img">
+					<img class="extraPic" width="100%" height="auto" src="img/MKproduct2.png" atl="MKproduct2">
+				</div>
+				<div class="contentBox2-img">
+					<img class="extraPic" width="100%" height="auto" src="img/MKproduct3.png" atl="MKproduct3">
+				</div>
+			</div>
 
-		<div class="contentBox2">
-				<img class="extraPic isSelected" src="img/MKproduct1.png" atl="MKproduct1">
-				<img class="extraPic2" src="img/MKproduct2.png" atl="MKproduct2">
-				<img class="extraPic2" src="img/MKproduct3.png" atl="MKproduct3">
-		</div>
+			<div class="contentBox">
+				<h2 class="detailHead">Michael Kors Selma Saffiano Leather Medium Satchel</h2>
+				<p class="details">
+					<ol class="detailsList">
+						<li>100% Cow Leather</li>
+						<li>Top Handle: 4.5"</li>
+						<li>Adjustable Strap: 17.5-19.5"</li>
+						<li>Interior: One inside zip pocket, two open inside pockets</li>
+						<li>Dimensions: 13x8x4"</li>
+						<li>Top Zip</li>
+						<li>100% Polyester Lining</li>
+						<li>Imported</li>
+					</ol>
+					<img class="swatches1 isSelected" src="img/palePink.jpg">
+					<img class="swatches" src="img/paleBlue.jpg">
+					<img class="swatches" src="img/watermelon.jpg">
+					<img class="swatches" src="img/mandarin.jpg">
 
-		<div class="contentBox">
-			<h2 class="detailHead">Michael Kors Selma Saffiano Leather Medium Satchel</h2>
-			<p class="details">
-				<ol class="detailsList">
-					<li>100% Cow Leather</li>
-					<li>Top Handle: 4.5"</li>
-					<li>Adjustable Strap: 17.5-19.5"</li>
-					<li>Interior: One inside zip pocket, two open inside pockets</li>
-					<li>Dimensions: 13x8x4"</li>
-					<li>Top Zip</li>
-					<li>100% Polyester Lining</li>
-					<li>Imported</li>
-				</ol>
-				<img class="swatches1 isSelected" src="img/palePink.jpg">
-				<img class="swatches isSelected" src="img/paleBlue.jpg">
-				<img class="swatches isSelected" src="img/watermelon.jpg">
-				<img class="swatches isSelected" src="img/mandarin.jpg">
+					<p>Price: $278</p>
 
-				<p>Price: $278</p>
-
-				<p>Quantity:
-					<p class="details-quantity"><input id="username" type="number" value="1"></p>
-					<a class="addBtn" href="#">Add to cart</a>
+					<p>Quantity:
+						<p class="details-quantity"><input id="username" type="number" value="1"></p>
+						<a class="addBtn" href="cart.html">Add to cart</a>
+					</p>
 				</p>
-			</p>
+			</div>
+		</div>
+
+		<div class="footer">
+			<div class="footerBox">
+				<div class="footer-1-3">
+					<div class="footer-item">
+						<a href="" lang="zh-Hant">城中市場, Jhongjheng District, Taipei City, Taiwan 100, Taipei, Taiwan 100</a>
+					</div>
+					<div class="footer-item">
+						<a href="">TEL: 02-2314-1549</a>
+					</div>
+				</div>
+				<div class="footer-2-3">
+					<p class="footer-detail">© Jen's Boutique</p>
+				</div>
+				<div class="footer-3-3">
+					<div class="footer-item-icon">
+						<a class="footer-item-icon-link" href="https://www.facebook.com/jensbutique"><img class="footer-item-icon-img" src="img/FBLOGOGREY.jpg" alt="Facebook" width="25" height="25"></a>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 
-	<div class="footer">
-		<div class="footerBox">
-			<div class="footer-1-3">
-				<div class="footer-item">
-					<a href="">城中市場, Jhongjheng District, Taipei City, Taiwan 100, Taipei, Taiwan 100</a>
-				</div>
-				<div class="footer-item">
-					<a href="">TEL: 02-2314-1549</a>
-				</div>
-			</div>
-			<div class="footer-2-3">
-				<p class="footer-detail">© Jen's Boutique</p>
-			</div>
-			<div class="footer-3-3">
-				<div class="footer-item-icon">
-					<a class="footer-item-icon-link" href="https://www.facebook.com/jensbutique"><img class="footer-item-icon-img" src="img/FBLOGOGREY.jpg" alt="Facebook" width="25" height="25"></a>
-				</div>
-			</div>
-		</div>
-	</div>
+	<script src="js/jquery.js"></script>
+    <script src="js/hamburger.js"></script>
 
 	</body>
 </html>
