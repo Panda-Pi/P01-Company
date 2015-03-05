@@ -4,10 +4,8 @@ body{
 
 .productImg{
 	border: 0.1em solid #616161;
-	/*padding: 1em;*/
-	display: block;
+	height: auto;
 	width: 100%;
-	height: 100%;
 	margin: 0;
 }
 
@@ -31,24 +29,13 @@ body{
 
 .extraPic{
 	width: 100%;
-	height: 100%;
-	float: left;
-	margin: 0;
+	height: auto;
 	cursor: pointer;
+	border: 0.1em solid #cacaca;
 }
 
 .isSelected{
 	border: 0.1em solid #616161;
-}
-
-.extraPic2{
-	border: 0.1em solid #cacaca;
-	width: 100%;
-	height: 100%;
-	float: left;
-	margin: 0;
-	margin-top: 0.94em;
-	cursor: pointer;
 }
 
 .swatches{
@@ -101,4 +88,24 @@ a.addBtn:hover, a.addBtn:active{
 	text-transform: uppercase;
 	transition: background 0.2s ease-in-out 0s;
 	display: inline-block;
+}
+
+@media (max-width: 50em){
+	.details-quantity{
+		width: 20%;
+	}
+
+	.detailHead{
+		font-size: 20px;
+	}
+
+	.detailsList{
+		font-size: 13px;
+	}
+}
+
+@media (max-width: 40em){
+	.details-quantity{
+		width: 25%;
+	}
 }

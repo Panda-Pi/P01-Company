@@ -10,9 +10,10 @@
 .content-cart-table{
 	width: 100%;
 	height: 3%;
-	padding-bottom: 2.5em;
+	/*padding-bottom: 2.5em;*/
 	margin: 0;
 	display: inline-block;
+	border-bottom: 1px solid #cacaca;
 }
 
 .content-cart-table-name{
@@ -32,6 +33,14 @@
 }
 
 .content-cart-table-quan{
+	width: 12%;
+	font-weight: 500;
+	font-size: 15px;
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+.content-cart-table-price{
 	width: 10%;
 	font-weight: 500;
 	font-size: 15px;
@@ -40,21 +49,22 @@
 }
 
 .cart-image{
-	height: 100%;
-	/*width: 17.5%;*/
+	height: auto;
+	width: 14%;
 	vertical-align: top;
-	/*border: 1px solid #616161;*/
+	border: 1px solid #616161;
 }
 
 .content-cart-item-name{
-	height: 100%;
-	width: 50%;
+	height: auto;
+	width: 42.5%;
 	font-weight: 500;
 	text-transform: uppercase;
 	text-align: left;
 	font-size: 13px;
 	display: inline-block;
 	padding-left: 2em;
+	padding-top: 5em;
 	vertical-align: text-bottom;
 }
 
@@ -69,25 +79,24 @@ a.item-name-link:hover, a.item-name-link:active{
 	transition: color 0.2s ease-in-out 0s;
 }
 
-.content-cart-item-detail{
+.content-cart-item-color{
 	height: 100%;
-	width: 17%;
+	width: 14.5%;
 	font-weight: 300;
 	text-transform: uppercase;
 	text-align: left;
 	font-size: 13px;
 	display: inline-block;
-	padding-left: 2em;
+	padding-left: 1em;
 	vertical-align: text-bottom;
 }
 
 .content-cart-item-quan{
 	height: 100%;
-	width: 11%;
-	padding-left: 2em;
+	width: 9%;
+	padding-left: 1.2em;
 	display: inline-block;
-	vertical-align: top;
-	margin-top: 0.5em;
+	vertical-align: text-bottom;
 }
 
 .content-cart-item-quan input{
@@ -99,14 +108,14 @@ a.item-name-link:hover, a.item-name-link:active{
 
 .content-cart-item-price{
 	height: 100%;
-	width: 15%;
+	width: 13%;
 	font-weight: 300;
 	text-transform: uppercase;
 	text-align: left;
 	font-size: 13px;
 	display: inline-block;
-	padding-left: 3em;
-	vertical-align: top;
+	padding-left: 4.5em;
+	/*vertical-align: top;*/
 }
 
 .content-cart-item-remove{
@@ -116,8 +125,7 @@ a.item-name-link:hover, a.item-name-link:active{
 	text-transform: uppercase;
 	text-align: left;
 	display: inline-block;
-	vertical-align: top;
-	margin-top: 0.5em;
+	vertical-align: text-bottom;
 }
 
 .content-cart-item-remove a{
@@ -131,4 +139,112 @@ a.item-name-link:hover, a.item-name-link:active{
 	text-decoration: none;
 	color: #616161;
 	transition: color 0.2s ease-in-out 0s;
+}
+
+.content-cart-item-detail{
+	width: 100%;
+	height: auto;
+	padding: 0;
+}
+
+.cart-comment{
+	min-height: 6em;
+	width: 100%;
+}
+.total{
+	width: 84%;
+	font-weight: 500;
+	font-size: 18px;
+	display: inline-block;
+	position: relative;
+	text-align: right;
+}
+
+.total-price{
+	width: 15%;
+	display: inline-block;
+	position: relative;
+	text-align: right;
+}
+
+.checkoutBtn{
+	text-decoration: none;
+	background: #000;
+	border: 1px solid #000;
+	color: #fff;
+	font-size: 13px;
+	border-radius: 0;
+	padding: 7px 12px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	display: inline-block;
+}
+
+a.checkoutBtn:hover, a.checkoutBtn:active{
+	text-decoration: none;
+	background-color: #fff;
+	border:1px solid #000;
+	border-radius: 0;
+	color: black;
+	padding: 7px 12px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: background 0.2s ease-in-out 0s;
+	display: inline-block;
+}
+
+.continue{
+	color: #616161;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+a.continue:hover, a.continue:active{
+	color: #000;
+	text-decoration: none;
+	border-bottom: 1px solid #000;
+	transition: color 0.2s ease-in-out 0s;
+}
+
+@media (max-width: 40em){
+	.content-cart-item-name{
+		/*display: inline-block;*/
+		width: 60%;
+		padding: 0;
+		padding-left: 2em;
+	}
+
+	.content-cart-table{
+		display: none;
+	}
+
+	.cart-image{
+		width: 30%;
+	}
+
+	.content-cart-item-color{
+		padding: 0;
+		vertical-align: text-bottom;
+		width: 30%;
+	}
+
+	.content-cart-item-quan{
+		width: 30%;	
+		/*padding: 0;*/
+		padding-top: 0.5em;
+	}
+
+	.content-cart-item-price{
+		width: 20%;
+		padding-left: 2em;
+	}
+
+	.content-cart-item-remove{
+		width: 10%;
+		padding-left: 1em;
+	}
+
+	.total{
+		width: 83%;
+	}
 }

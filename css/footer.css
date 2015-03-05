@@ -3,15 +3,13 @@ body{
 }
 
 .footer{
-	position: fixed;
+	position: relative;
    	bottom: 0;
    	left: 0;
    	width:100%;
-   	height:3em;
    	background: #fff;
    	border-top: 1px solid #616161;
-   	/*margin-top: 0;*/
-   	/*padding-bottom: 3em;*/
+   	vertical-align: bottom;
 }
 
 .footerBox{
@@ -78,6 +76,50 @@ body{
 .footer-detail{
 	color: #cacaca;
 	font-size: 13px;
-	padding-left: 10em;
+	padding-left: 6em;
 	padding-top: 0.3em;
+}
+
+@media (max-width: 40em){
+	.footer-1-3{
+		width: 100%;
+		text-align: center;
+		padding-top: 0.5em;
+	}
+
+	.footer-item{
+		width: 100%;
+		padding: 0.5em 2em;
+	}
+
+	.footer-item a{
+		margin: 0;
+	}
+
+	.footer-2-3{
+		width: 66%;
+	}
+
+	.footer-3-3{
+		width: 32%;
+		vertical-align: top;
+		display: inline-block;
+	}
+
+	.footer-item-icon{
+		padding: 0;
+	}
+
+	.footer-item-icon-link{
+		float: right;
+		padding-right: 1.5em;
+	}
+
+	.footer-detail{
+		margin: 0;
+		padding: 0;
+		text-align: right;
+		padding-top: 0.5em;
+		padding-left: 2em;
+	}
 }
