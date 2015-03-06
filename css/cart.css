@@ -97,6 +97,7 @@ a.item-name-link:hover, a.item-name-link:active{
 	padding-left: 1.2em;
 	display: inline-block;
 	vertical-align: text-bottom;
+	outline: 0;
 }
 
 .content-cart-item-quan input{
@@ -104,6 +105,7 @@ a.item-name-link:hover, a.item-name-link:active{
 	width: 100%;
 	-webkit-appearance: "Always Show Up/Down Arrows";
 	opacity: 1;
+	outline: 0;
 }
 
 .content-cart-item-price{
