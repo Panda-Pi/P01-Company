@@ -68,18 +68,18 @@
 		</div>
 		<div class="contentBox-detailPG">
 			<div class="contentBox-Img">
-				<img class="productImg" width="100%" height="auto" src="img/MKproduct1.png" alt="MKproduct1">
+				<img id="viewImg" class="productImg" width="100%" height="auto" src="img/MKproduct1.png" alt="MKproduct1">
 			</div>
 
 			<div class="contentBox2">
 				<div class="contentBox2-img">
-					<img class="extraPic isSelected" src="img/MKproduct1.png" width="100%" height="auto" atl="MKproduct1">
+					<button class="imgBtn" onclick="changeImg()"><img class="extraPic " src="img/MKproduct1.png" width="100%" height="auto" atl="MKproduct1"></button>
 				</div>
 				<div class="contentBox2-img">
-					<img class="extraPic" width="100%" height="auto" src="img/MKproduct2.png" atl="MKproduct2">
+					<button class="imgBtn" onclick="changeImg2()"><img class="extraPic" width="100%" height="auto" src="img/MKproduct2.png" atl="MKproduct2" onclick="changeImg()"></button>
 				</div>
 				<div class="contentBox2-img">
-					<img class="extraPic" width="100%" height="auto" src="img/MKproduct3.png" atl="MKproduct3">
+					<button class="imgBtn" onclick="changeImg3()"><img class="extraPic" width="100%" height="auto" src="img/MKproduct3.png" atl="MKproduct3"></button>
 				</div>
 			</div>
 
@@ -96,7 +96,7 @@
 						<li>100% Polyester Lining</li>
 						<li>Imported</li>
 					</ol>
-					<img class="swatches1 isSelected" src="img/palePink.jpg">
+					<img id="swatch1" class="swatches1" src="img/palePink.jpg">
 					<img class="swatches" src="img/paleBlue.jpg">
 					<img class="swatches" src="img/watermelon.jpg">
 					<img class="swatches" src="img/mandarin.jpg">
@@ -132,6 +132,20 @@
 			</div>
 		</div>
 	</div>
+
+	<script>
+		function changeImg(){
+			document.getElementById("viewImg").src="img/MKproduct1.png";
+		}
+
+		function changeImg2(){
+			document.getElementById("viewImg").src="img/MKproduct2.png";
+		}
+
+		function changeImg3(){
+			document.getElementById("viewImg").src="img/MKproduct3.png";
+		}
+	</script>
 
 	<script src="js/jquery.js"></script>
     <script src="js/hamburger.js"></script>
