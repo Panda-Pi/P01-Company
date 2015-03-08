@@ -67,7 +67,7 @@ html{
 .contentBox-Img{
 	position: relative;
 	display: inline-block;
-	padding: 0.5em 2em;
+	padding: 0.5em 3em;
 	width: 40%;
 	height: 100%;
 }
@@ -145,7 +145,7 @@ a.btn:hover, a.btn:focus{
 	display: inline-block;
 
 	left: 0;
-	margin-top: 3.2em;
+	margin-top: 4em;
 	margin-left: 2em;
 }
 
