@@ -102,9 +102,9 @@ html{
 
 .paragraph{
 	text-align: left;
-	width: 85%;
+	width: 100%;
 	font-size: 13px;
-	padding-bottom: 2em;
+	padding-bottom: 1em;
 }
 
 .paragraphBtn{
