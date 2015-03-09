@@ -13,14 +13,12 @@ body{
 
 .logo{
 	width: 15%;
-	/*padding: 0.4em;*/
 	display: inline-block;
 	position: relative;
 	height: auto;
 	vertical-align: text-top;
 	text-align: center;
 	padding-left: 1.5em;
-	/*margin-top: 0.5em;*/
 }
 
 .logo a img{
@@ -154,6 +152,7 @@ body{
 	display: inline-block;
 	list-style-type: none;
 	padding: 0;
+	padding-top: 1em;
 }
 
 .subNavList li{
