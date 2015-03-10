@@ -37,7 +37,6 @@ html{
 	left: 0;
 	top: 0;
 	z-index: -1;
-
 	display: -webkit-flex;
 	display: -ms-flex;
 	display: flex;
