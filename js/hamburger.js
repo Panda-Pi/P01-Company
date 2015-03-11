@@ -45,7 +45,7 @@ $(document).ready( function() {
 		If the 'width' variable (width of the window) is less then
 		350px, then we want to perform some actions
 	*/
-	if (width < 400) {
+	if (width < 450) {
 		$("#navToggle").css("display","inline-block"); // Setting #navToggle to display: block;
 		$("nav").hide();		// Setting nav to display: none;
 		$(".dd-toggle").css("display", "block");
