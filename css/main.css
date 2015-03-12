@@ -30,24 +30,24 @@ body {
 
 .bag {
 	position: fixed;
-	padding-left: 73em;
-	padding-top: 6px;
+	padding-left: 77em;
+	padding-top: 1em;
 	width: 100px;
 	float: right;
 }
 
 .search {
 	position: fixed;
-	padding-left: 70em;
-	padding-top: 6px;
+	padding-left: 74em;
+	padding-top: 1em;
 	width: 100px;
 	float: right;
 }
 
 .user {
 	position: fixed;
-	padding-left: 76em;
-	padding-top: 6px;
+	padding-left: 80em;
+	padding-top: 1em;
 	width: 100px;
 	float: right;
 }
@@ -186,7 +186,7 @@ h2, h3 {
 
 .ribbon4 {
 	position: relative;
-	top: 15em;
+	top: 11em;
 	height: 100%;
 	float: left;
 	padding-left: 19em;
@@ -223,16 +223,17 @@ h2, h3 {
 	vertical-align: top;
 	display: inline-block;
 	padding-left: 4.5em;
-	padding-top: 14em;
+	padding-top: 10em;
 }
 
 .details4 {
-	width: 30%;
+	width: 80%;
 	text-align: left;
 	vertical-align: top;
 	display: inline-block;
 	padding-left: 42.5em;
-	padding-top: 7em;
+	padding-top: 10em;
+	padding-bottom: 15em;
 }
 
 .navexample {
